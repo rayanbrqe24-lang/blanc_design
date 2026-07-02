@@ -48,7 +48,7 @@ export default function Stats() {
     <section className="bg-void px-6 py-24 md:px-12 md:py-32">
       <div className="mx-auto grid max-w-[1600px] gap-12 md:grid-cols-4">
         {STATS.map((s, i) => (
-          <Reveal key={s.label} delay={i * 100}>
+          <Reveal key={s.label} delay={i * 100} variant="scale">
             <Counter target={s.value} suffix={s.suffix} />
             <p className="eyebrow mt-3 text-cloud/50">{s.label}</p>
           </Reveal>

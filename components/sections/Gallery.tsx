@@ -27,6 +27,7 @@ export default function Gallery() {
             <Reveal
               key={p.src}
               delay={i * 60}
+              variant="blur"
               className={p.big ? "col-span-2 row-span-2" : ""}
             >
               <div

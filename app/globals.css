@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600,500,400&f[]=general-sans@500,400,600&display=swap");
-
 :root {
-  --font-display: "Clash Display", serif;
-  --font-body: "General Sans", sans-serif;
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
 }
 
 * {

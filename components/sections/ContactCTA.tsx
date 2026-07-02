@@ -5,7 +5,7 @@ export default function ContactCTA() {
   return (
     <section className="bg-ink px-6 py-32 text-center text-cloud md:px-12 md:py-44">
       <div className="mx-auto max-w-3xl">
-        <Reveal>
+        <Reveal variant="scale">
           <p className="eyebrow text-ember">Start a Project</p>
           <h2 className="mt-6 font-display text-4xl tracking-tightest md:text-6xl">
             Tell us what you&apos;re building.

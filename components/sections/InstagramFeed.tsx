@@ -19,7 +19,7 @@ export default function InstagramFeed() {
         </Reveal>
         <div className="mt-8 grid grid-cols-3 gap-3 md:grid-cols-6">
           {SHOTS.map((src, i) => (
-            <Reveal key={src} delay={i * 50}>
+            <Reveal key={src} delay={i * 50} variant="scale">
               <div className="relative aspect-square w-full overflow-hidden">
                 <Image src={src} alt="Blanc Design on Instagram" fill className="object-cover" sizes="16vw" />
               </div>

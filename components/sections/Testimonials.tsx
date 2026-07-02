@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <section className="bg-void px-6 py-28 text-cloud md:px-12 md:py-40">
       <div className="mx-auto max-w-4xl text-center">
-        <Reveal>
+        <Reveal variant="scale">
           <p className="font-display text-3xl leading-snug tracking-tightest md:text-4xl">
             &quot;Blanc treated our home like a piece of furniture — every
             joint considered, nothing left generic.&quot;

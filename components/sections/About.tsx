@@ -16,7 +16,7 @@ export default function About() {
         </Reveal>
 
         <div className="mt-16 grid gap-12 md:grid-cols-2 md:items-center">
-          <Reveal delay={150} className="order-2 md:order-1">
+          <Reveal delay={150} variant="slideLeft" className="order-2 md:order-1">
             <p className="text-lg leading-relaxed text-graphite/70">
               Blanc Design began as a furniture workshop in 2012, shaping
               wood and joinery long before it drew its first elevation. That
@@ -31,7 +31,7 @@ export default function About() {
               concept to the last cabinet hinge.
             </p>
           </Reveal>
-          <Reveal delay={250} className="order-1 md:order-2">
+          <Reveal delay={250} variant="scale" className="order-1 md:order-2">
             <div className="relative aspect-[4/5] w-full overflow-hidden">
               <Image
                 src="/images/project-1/kitchen-01.jpg"

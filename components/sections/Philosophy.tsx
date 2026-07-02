@@ -15,7 +15,7 @@ export default function Philosophy() {
         </Reveal>
         <div className="mt-16 grid gap-12 md:grid-cols-3">
           {PRINCIPLES.map((p, i) => (
-            <Reveal key={p.title} delay={i * 100}>
+            <Reveal key={p.title} delay={i * 100} variant="blur">
               <h3 className="font-display text-2xl text-ink">{p.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-graphite/60">{p.copy}</p>
             </Reveal>

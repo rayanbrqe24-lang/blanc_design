@@ -15,7 +15,7 @@ export default function Awards() {
         </Reveal>
         <div className="mt-12 divide-y divide-cloud/10 border-t border-cloud/10">
           {AWARDS.map((a, i) => (
-            <Reveal key={a.name} delay={i * 80}>
+            <Reveal key={a.name} delay={i * 80} variant="slideLeft">
               <div className="flex flex-col justify-between gap-2 py-6 text-cloud md:flex-row md:items-center">
                 <span className="font-display text-xl md:text-2xl">{a.name}</span>
                 <span className="text-sm text-cloud/50">{a.category}</span>

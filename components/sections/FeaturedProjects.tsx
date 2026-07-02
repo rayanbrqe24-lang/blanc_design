@@ -27,7 +27,7 @@ export default function FeaturedProjects() {
 
         <div className="mt-20 divide-y divide-ink/10 border-t border-ink/10">
           {PROJECTS.map((p, i) => (
-            <Reveal key={p.title} delay={i * 80}>
+            <Reveal key={p.title} delay={i * 80} variant="slideRight">
               <a
                 href={p.href}
                 data-cursor

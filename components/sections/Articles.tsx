@@ -19,7 +19,7 @@ export default function Articles() {
         </Reveal>
         <div className="mt-16 grid gap-10 md:grid-cols-3">
           {POSTS.map((p, i) => (
-            <Reveal key={p.title} delay={i * 100}>
+            <Reveal key={p.title} delay={i * 100} variant="blur">
               <div className="relative aspect-[4/3] w-full overflow-hidden">
                 <Image src={p.image} alt={p.title} fill className="object-cover" sizes="33vw" />
               </div>

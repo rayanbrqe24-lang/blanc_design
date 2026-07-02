@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { fraunces, inter } from "./fonts";
 import SmoothScroll from "@/components/layout/SmoothScroll";
 import Cursor from "@/components/layout/Cursor";
 import Preloader from "@/components/layout/Preloader";
@@ -79,7 +80,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="bg-paper text-graphite font-body">
+      <body className={`${fraunces.variable} ${inter.variable} bg-paper text-graphite font-body`}>
         <Preloader />
         <div className="noise" aria-hidden="true" />
         <Cursor />

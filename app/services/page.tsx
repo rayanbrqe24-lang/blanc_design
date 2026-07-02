@@ -53,7 +53,7 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-[1600px]">
           <div className="grid gap-x-12 gap-y-16 md:grid-cols-3">
             {SERVICES.map((s, i) => (
-              <Reveal key={s.n} delay={(i % 3) * 100}>
+              <Reveal key={s.n} delay={(i % 3) * 100} variant="scale">
                 <span className="font-display text-sm text-ember">{s.n}</span>
                 <h3 className="mt-4 font-display text-2xl text-ink">{s.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-graphite/60">{s.copy}</p>

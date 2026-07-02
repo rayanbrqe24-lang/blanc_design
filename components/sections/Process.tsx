@@ -20,7 +20,7 @@ export default function Process() {
 
         <div className="mt-20 grid gap-10 md:grid-cols-4">
           {STEPS.map((s, i) => (
-            <Reveal key={s.n} delay={i * 100}>
+            <Reveal key={s.n} delay={i * 100} variant="scale">
               <span className="font-display text-sm text-ember">{s.n}</span>
               <h3 className="mt-4 font-display text-xl text-ink">{s.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-graphite/60">{s.copy}</p>

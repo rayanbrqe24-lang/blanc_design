@@ -1,41 +1,18 @@
 import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Awards from "@/components/sections/Awards";
-import FeaturedProjects from "@/components/sections/FeaturedProjects";
-import Process from "@/components/sections/Process";
-import InteriorDesign from "@/components/sections/InteriorDesign";
-import ConstructionServices from "@/components/sections/ConstructionServices";
-import ProjectTimeline from "@/components/sections/ProjectTimeline";
-import VideoShowcase from "@/components/sections/VideoShowcase";
-import Gallery from "@/components/sections/Gallery";
-import Testimonials from "@/components/sections/Testimonials";
-import Clients from "@/components/sections/Clients";
-import Stats from "@/components/sections/Stats";
-import Philosophy from "@/components/sections/Philosophy";
-import Articles from "@/components/sections/Articles";
-import InstagramFeed from "@/components/sections/InstagramFeed";
-import ContactCTA from "@/components/sections/ContactCTA";
+import HomeJourney from "@/components/sections/journey/HomeJourney";
+import JourneyFinalCTA from "@/components/sections/journey/JourneyFinalCTA";
 
+// The Home page is one continuous presentation - hero, then a
+// full-viewport scene for every room in the house, ending on a single
+// closing chapter. Deeper content (services, full portfolio case studies,
+// studio story) lives on their own pages; this page's only job is to make
+// someone want to click through to them.
 export default function Home() {
   return (
     <main>
       <Hero />
-      <About />
-      <Stats />
-      <Clients />
-      <FeaturedProjects />
-      <Process />
-      <InteriorDesign />
-      <ConstructionServices />
-      <ProjectTimeline />
-      <VideoShowcase />
-      <Gallery />
-      <Testimonials />
-      <Awards />
-      <Philosophy />
-      <Articles />
-      <InstagramFeed />
-      <ContactCTA />
+      <HomeJourney />
+      <JourneyFinalCTA />
     </main>
   );
 }

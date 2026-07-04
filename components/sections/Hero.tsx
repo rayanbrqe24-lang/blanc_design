@@ -66,14 +66,14 @@ export default function Hero() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center md:px-12">
           <h1
             ref={headlineRef}
-            className="max-w-4xl font-display text-5xl font-medium italic leading-[1.05] tracking-tight text-cloud md:text-7xl"
+            className="max-w-4xl font-journeyDisplay text-5xl italic leading-[1.05] tracking-tight text-cloud md:text-7xl"
           >
-            We are experts
+            Designing
             <br />
-            shaping how you live
+            Timeless Living
           </h1>
 
-          <p ref={subRef} className="mt-8 max-w-xl text-base leading-relaxed text-cloud/75 md:text-lg">
+          <p ref={subRef} className="mt-8 max-w-xl font-journeyBody text-base leading-relaxed text-cloud/75 md:text-lg">
             Elevate your space with architecture and interiors built to a
             luxury standard — designed, managed, and manufactured by one
             studio in Erbil, from first sketch to finished joinery.
@@ -81,11 +81,11 @@ export default function Hero() {
 
           <div ref={ctaRef} className="mt-10">
             <Link
-              href="/contact"
+              href="#exterior"
               data-cursor
               className="inline-block rounded-full bg-cloud px-8 py-4 text-sm font-medium text-ink transition-transform duration-300 ease-signature hover:scale-105"
             >
-              Book a Consultation
+              Explore Projects
             </Link>
           </div>
         </div>

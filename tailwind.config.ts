@@ -20,6 +20,8 @@ const config: Config = {
       fontFamily: {
         display: ["var(--font-display)", "serif"],
         body: ["var(--font-body)", "sans-serif"],
+        journeyDisplay: ["var(--font-journey-display)", "serif"],
+        journeyBody: ["var(--font-journey-body)", "sans-serif"],
       },
       letterSpacing: {
         tightest: "-0.04em",
